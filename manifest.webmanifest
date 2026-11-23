@@ -1,0 +1,29 @@
+{
+ "name": "Judon vyökoeopas",
+ "short_name": "Vyökoeopas",
+ "lang": "fi",
+ "start_url": "./",
+ "scope": "./",
+ "description": "Judon tekniikat ja vyökoevaatimukset 5. kyusta 1. daniin",
+ "display": "standalone",
+ "background_color": "#f6f3ea",
+ "theme_color": "#2c57cc",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
