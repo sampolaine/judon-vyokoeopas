@@ -7,7 +7,7 @@
  "description": "Judon tekniikat ja vyökoevaatimukset 5. kyusta 1. daniin",
  "display": "standalone",
  "background_color": "#f6f3ea",
- "theme_color": "#2c57cc",
+ "theme_color": "#f6f3ea",
  "icons": [
   {
    "src": "icon-192.png",
