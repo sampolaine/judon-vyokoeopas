@@ -2,7 +2,7 @@
    YouTube's player is never touched (it isn't same-origin), so offline the page shows its own message. */
 'use strict';
 // One origin (the github.io site) holds other apps too: only caches named vyokoeopas- are ours to touch
-var PREFIX = 'vyokoeopas-', CACHE = PREFIX + '02d2eb0fc42f';
+var PREFIX = 'vyokoeopas-', CACHE = PREFIX + 'bcd57b4762b6';
 var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 // the page waits this long for the network before the cached copy answers (a slow or captive network)
 var WAIT = 3000;
