@@ -2,8 +2,9 @@
    YouTube's player is never touched (it isn't same-origin), so offline the page shows its own message. */
 'use strict';
 // One origin (the github.io site) holds other apps too: only caches named vyokoeopas- are ours to touch
-var PREFIX = 'vyokoeopas-', CACHE = PREFIX + '7d47db368ee2';
-var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
+var PREFIX = 'vyokoeopas-', CACHE = PREFIX + '9a930ccf826c';
+var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png',
+  'favicon.svg', 'favicon-32.png', 'favicon-16.png'];
 // the page waits this long for the network before the cached copy answers (a slow or captive network)
 var WAIT = 3000;
 self.addEventListener('install', function (e) {
